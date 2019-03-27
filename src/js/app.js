@@ -1,3 +1,5 @@
+'use strict';
+
 const costs = [200, 550, 4000, 23, 58, 5000, 485, 711];
 
 const getBonus = (arr) => {
