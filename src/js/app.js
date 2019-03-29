@@ -9,7 +9,7 @@ const getBonus = (arr) => {
         sum += value;
     };
     if (sum > 10000) {
-        bonus = 0.05*sum;
+        bonus = 0.05*(sum - 10000);
     } 
     return parseInt(bonus);
 };
